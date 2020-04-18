@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.small {font-size: small}
+.medium {font-size: medium}
+.large {font-size: large}
+.center {text-align: center}
+.clear {clear:both}
+
+a {
+	text-decoration: none;
+	color: #398bce;
+}
+
+body {
+	background: #fff;
+	width: 100%;
+	font-family : verdana, sans-serif;
+	font-size: medium;
+}
+
+.hero {
+	background-position: 0 0;
+	background: #2D2D2D;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 15px;
+	padding: 5px 0;
+}
+
+
+input[type="text"] {
+	text-transform: uppercase;
+}
+
+.item ul li{
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+}

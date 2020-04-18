@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteBase /
+	
+	# remove www
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+	
+	# dispach request
+	RewriteRule !\.(js|html|txt|jpg|jpeg|png|gif|ico|css)$ index.php
+
+</IfModule>
