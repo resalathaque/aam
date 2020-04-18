@@ -8,7 +8,7 @@ return array(
 	|--------------------------------------------------------------------------
 	*/
 
-	'dns' => 'mysql:host=localhost;dbname=9xsongs',
+	'dns' => 'mysql:host=localhost;dbname=db',
 	
 	'username' => 'root',
 	
