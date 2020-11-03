@@ -5,7 +5,7 @@ class View {
 	/**
 	 * @const extension
 	 */
-	const extension = '.tmpl.php';
+	const extension = '.php';
 	
 	/**
 	 * view path
