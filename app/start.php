@@ -39,11 +39,11 @@ date_default_timezone_set(Config::app('timezone', 'UTC'));
 |--------------------------------------------------------------------------
 */
 
-set_exception_handler('Error::exception');
+set_exception_handler('Errorhandler::exception');
 
-set_error_handler('Error::native');
+set_error_handler('Errorhandler::native');
 
-register_shutdown_function('Error::shutdown');
+register_shutdown_function('Errorhandler::shutdown');
 
 
 /*

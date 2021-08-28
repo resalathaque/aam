@@ -1,13 +1,13 @@
 <?php
 
-class Error {
+class Errorhandler {
 	
 	/**
 	 * Exception handler
 	 *
 	 * @param Exception
 	 */
-	public static function exception(Exception $e)
+	public static function exception(Throwable $e)
 	{
 		if (Config::app('debug'))
 		{
