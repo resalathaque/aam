@@ -7,7 +7,7 @@ class Errorhandler {
 	 *
 	 * @param Exception
 	 */
-	public static function exception(Throwable $e)
+	public static function exception($e)
 	{
 		if (Config::app('debug'))
 		{
